@@ -1,0 +1,32 @@
+.menu{
+  display:flex;
+  align-items: center;
+  gap:0 36px;
+  list-style-type: none;
+  &__link {
+    color: var(--grayb5);
+    position: relative;
+    display: inline-block;
+    transition: color 0.25s ease-out;
+    &:before {
+      content: "";
+      height: 2px;
+      width: 0;
+      background-image: linear-gradient(
+        to right bottom,
+        var(--primary-color),
+        var(--primary-yellow)
+      );
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      transition: width 0.25s ease-in;
+    }
+    &:hover {
+      color: var(--white);
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+}

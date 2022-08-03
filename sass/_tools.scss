@@ -1,0 +1,26 @@
+.tools{
+  padding: 59px 0 68px;
+  background-color: var(--gray1e);
+  &__main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  &__image{
+    transform: translateX(10%);
+  }
+  &__content{
+    width: 100%;
+    max-width: 584px;
+  }
+  &__heading{
+    color: var(--white);
+    margin-bottom: 9px;
+  }
+  &__text{
+    max-width: 362px;
+    margin-bottom: 41px;
+    color: var(--grayb5);
+  }
+}

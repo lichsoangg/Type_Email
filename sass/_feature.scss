@@ -1,0 +1,25 @@
+.feature{
+  padding: 102px 0 83px;
+  &__main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  &__image{
+    flex-shrink: 0;
+  }
+  &__content{
+    flex:1;
+    max-width: 548px;
+  }
+  &__tittle{
+    margin-bottom: 18px;
+  }
+  &__text{
+    margin-bottom: 28px;
+  }
+  &__link{
+    margin-top: 51px;
+  }
+}
